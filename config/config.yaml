@@ -130,6 +130,7 @@ rss:
     - id: "hacker-news"
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
+      enabled: false
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
@@ -140,6 +141,38 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+      enabled: false
+
+    - id: "tungsten-industry"
+      name: "钨产业资讯"
+      url: "https://news.google.com/rss/search?q=(%22%E9%92%A8%E7%B2%BE%E7%9F%BF%22%20OR%20%22%E4%BB%B2%E9%92%A8%E9%85%B8%E9%93%B5%22%20OR%20%22%E5%BA%9F%E9%92%A8%22%20OR%20%22%E7%A1%AC%E8%B4%A8%E5%90%88%E9%87%91%22%20OR%20%22%E7%A2%B3%E5%8C%96%E9%92%A8%22)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 1
+
+    - id: "silver-recycling"
+      name: "白银与含银废料"
+      url: "https://news.google.com/rss/search?q=(%22%E9%93%B6%E4%BB%B7%22%20OR%20%22%E9%93%B6%E6%B5%86%22%20OR%20%22%E5%90%AB%E9%93%B6%E5%BA%9F%E6%96%99%22%20OR%20%22%E9%93%B6%E5%9B%9E%E6%94%B6%22%20OR%20%22%E9%93%B6%E8%A7%A6%E7%82%B9%22)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 1
+
+    - id: "nonferrous-market"
+      name: "有色金属行情"
+      url: "https://news.google.com/rss/search?q=(%22%E9%93%9C%E4%BB%B7%22%20OR%20%22%E9%93%9D%E4%BB%B7%22%20OR%20%22%E9%94%8C%E4%BB%B7%22%20OR%20%22%E9%93%85%E4%BB%B7%22%20OR%20%22%E9%95%8D%E4%BB%B7%22%20OR%20%22%E9%94%A1%E4%BB%B7%22%20OR%20%22%E9%92%BC%E4%BB%B7%22%20OR%20%22%E9%92%B4%E4%BB%B7%22%20OR%20%22%E9%94%82%E4%BB%B7%22)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 1
+
+    - id: "scrap-recycling"
+      name: "废金属与再生资源"
+      url: "https://news.google.com/rss/search?q=(%22%E5%BA%9F%E9%87%91%E5%B1%9E%22%20OR%20%22%E5%86%8D%E7%94%9F%E9%87%91%E5%B1%9E%22%20OR%20%22%E5%8D%B1%E5%BA%9F%22%20OR%20%22%E8%B5%84%E6%BA%90%E5%BE%AA%E7%8E%AF%22%20OR%20%22%E5%86%8D%E7%94%9F%E8%B5%84%E6%BA%90%22)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 1
+
+    - id: "pv-silver-paste"
+      name: "光伏与电子浆料"
+      url: "https://news.google.com/rss/search?q=(%22%E5%85%89%E4%BC%8F%E9%93%B6%E6%B5%86%22%20OR%20%22HJT%22%20OR%20%22TOPCon%22%20OR%20%22BC%E7%94%B5%E6%B1%A0%22%20OR%20%22N%E5%9E%8B%E7%94%B5%E6%B1%A0%22)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 1
+
+    - id: "precious-metals-macro"
+      name: "贵金属与宏观"
+      url: "https://news.google.com/rss/search?q=%E9%BB%84%E9%87%91%20OR%20%E8%B4%B5%E9%87%91%E5%B1%9E%20OR%20%E7%BE%8E%E8%81%94%E5%82%A8%20OR%20%E7%BE%8E%E5%85%83%E6%8C%87%E6%95%B0%20OR%20%E9%9D%9E%E5%86%9C&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      max_age_days: 2
+      enabled: false
 
     # 自定义源示例
     # - id: "custom-feed"
